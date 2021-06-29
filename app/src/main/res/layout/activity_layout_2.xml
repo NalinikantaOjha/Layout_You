@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <Button
+        android:id="@+id/buttom_1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#DE1717"
+
+        android:text="Nrupul"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#0E0481"
+        android:text="Dev"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/buttom_2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#B4A311"
+        android:text="Pratik"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_margin="100dp"
+        android:layout_below="@+id/buttom_1"
+        android:layout_marginLeft="500dp"
+        android:layout_centerInParent="true"
+        android:textAllCaps="false"
+
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#920495"
+        android:text="Aman"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/buttom_2"
+
+
+
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#3F0D66"
+        android:text="Rahul"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentRight="true" />
+
+
+
+</RelativeLayout>
